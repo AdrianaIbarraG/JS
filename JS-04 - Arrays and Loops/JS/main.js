@@ -26,7 +26,13 @@ console.log("******* Ejercicio 3 parte 1 *******")
     console.log(valor);
 
     console.log("******* Ejercicio 3 parte 2 *******")
-       
+    let numero=100
+    for (let impar = 0; impar <=numero; impar++ ){
+        if((impar%2)!==0){
+            console.log (impar);
+        }
+    }
+
 
     console.log("******* Ejercicio 3 parte 3 *******")
 
