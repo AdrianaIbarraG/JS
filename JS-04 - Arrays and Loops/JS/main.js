@@ -15,6 +15,7 @@ console.log("******* Ejercicio 1 Parte 3 *******")
     console.log(people);
 
 console.log("******* Ejercicio 2 *******")
+    let star = "*"
     
 
 console.log("******* Ejercicio 3 parte 1 *******")
@@ -37,12 +38,19 @@ console.log("******* Ejercicio 3 parte 2 *******")
 console.log("******* Ejercicio 3 parte 3 *******")
     let n=10;
 
-    do {
+     do {
         if (n!==0) {
             console.log ("["+n+"]");
             (n--);
         }
     } while (n>=0);
 
+console.log("******* Ejercicio 3 parte 4 *******")
+    no=19;
+    let sum=0;
 
-    console.log("******* Ejercicio 3 parte 4 *******")
+    while (no!==0) {
+        sum+=no;
+        (no--);
+    }
+    console.log(sum)
