@@ -15,17 +15,23 @@ console.log("******* Ejercicio 1 Parte 3 *******")
     console.log(people);
 
 console.log("******* Ejercicio 2 *******")
-    let star = "*"
-    
+    let star ="*"
+   
+    for (let filas = 1; filas <= 5; filas++) {
+        let union; 
+        for (let columnas=1; columnas<=filas; columnas++) {
+            union= union+star;
+        } console.log (union);
+    } 
 
 console.log("******* Ejercicio 3 parte 1 *******")
-    let valor=100;    
+     let valor=100;    
     do {
     console.log(valor);
     valor-=.5;
     } while (valor>0);
     console.log(valor);
-
+ 
 console.log("******* Ejercicio 3 parte 2 *******")
     let numero=100
     for (let impar = 0; impar <=numero; impar++ ){
@@ -38,12 +44,12 @@ console.log("******* Ejercicio 3 parte 2 *******")
 console.log("******* Ejercicio 3 parte 3 *******")
     let n=10;
 
-     do {
+    do {
         if (n!==0) {
             console.log ("["+n+"]");
             (n--);
         }
-    } while (n>=0);
+    } while (n>=0); 
 
 console.log("******* Ejercicio 3 parte 4 *******")
     no=19;
