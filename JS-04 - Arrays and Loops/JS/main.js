@@ -49,7 +49,7 @@ console.log("******* Ejercicio 3 parte 3 *******")
             console.log ("["+n+"]");
             (n--);
         }
-    } while (n>=0); 
+    } while (n>0); 
 
 console.log("******* Ejercicio 3 parte 4 *******")
     no=19;
@@ -59,4 +59,4 @@ console.log("******* Ejercicio 3 parte 4 *******")
         sum+=no;
         (no--);
     }
-    console.log(sum)
+    console.log(sum);
